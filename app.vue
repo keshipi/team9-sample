@@ -75,7 +75,9 @@ const wordArray = [
           class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
         >
           <td class="px-6 py-4">{{ word.word }}</td>
-          <td class="px-6 py-4"><audio></audio></td>
+          <td class="px-6 py-4">
+            <font-awesome-icon :icon="['fas', 'volume-high']"/>
+          </td>
           <td class="px-6 py-4">{{ word.meaning }}</td>
           <td class="px-6 py-4">{{ word.registrationDate }}</td>
           <td class="px-6 py-4"><input type="check" /></td>
